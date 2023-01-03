@@ -1,0 +1,12 @@
+{
+  "name": "ecosystem",
+  "description": "Products catalog",
+  "private": "true",
+  "scripts": {},
+  "author": "Kseniia",
+  "dependencies": {
+    "navigo": "^8.11.1",
+    "parcel": "^2.8.2",
+    "redom": "^3.29.1"
+  }
+}
