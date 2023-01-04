@@ -1,9 +1,8 @@
-  let input = document.querySelector('input');
-  let btn = document.querySelector('button');
-  let container = document.querySelector('container');
+  let input = document.querySelector('.input');
+  let btn = document.querySelector('.btn');
+  let container = document.querySelector('.container');
   let list  = document.createElement('ol') ;
-  document.body.append(list);
-  // container.append('list') - не могу добавить в контейцнер, не может добавить null
+  container.append('list');
 
   btn.addEventListener('click', ()=> {
 
