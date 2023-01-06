@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.card-bounding {
+  width: 90%;
+  max-width: 500px;
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 50px;
+  border: 3px solid #2a2b2d;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  background: #929a9f;
+}
+.card-bounding aside {
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+.card-container {
+  padding-left: 80px;
+  padding-right: 40px;
+  position: relative;
+  border: 1px solid #ccc;
+  margin: 0 auto 30px auto;
+  background-image: url('./img/defaultcard.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.card-container input {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 30px;
+  padding: 15px 15px 15px 25px;
+  border: 0;
+  outline: none;
+}
+
+.card-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-details input {
+  font-size: 30px;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.expiration {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 51%;
+}
+
+.cvv {
+  width: 45%;
+}
+
+button {
+  margin: auto;
+}
