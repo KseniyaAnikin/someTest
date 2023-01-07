@@ -2,9 +2,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .card-bounding {
-  width: 90%;
-  max-width: 500px;
+  max-width: 600px;
   padding: 30px;
   margin: auto;
   margin-bottom: 50px;
@@ -13,20 +13,22 @@ body {
   font-family: 'Roboto';
   background: #929a9f;
 }
+
 .card-bounding aside {
   font-size: 24px;
   padding-bottom: 8px;
 }
+
 .card-container {
-  padding-left: 80px;
-  padding-right: 40px;
+  padding-left: 100px;
   position: relative;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
   margin: 0 auto 30px auto;
   background-image: url('./img/defaultcard.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .card-container input {
   width: 100%;
   letter-spacing: 1px;

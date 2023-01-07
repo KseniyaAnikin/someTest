@@ -11,6 +11,7 @@
     "eslint-plugin-import": "^2.22.1"
   },
   "dependencies": {
+    "creditcard.js": "^3.0.23",
     "inputmask": "^5.0.7",
     "parcel": "^2.8.2",
     "redom": "^3.29.1"
