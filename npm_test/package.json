@@ -2,16 +2,20 @@
   "private": "true",
   "scripts": {
     "lint": "eslint ./",
-    "lint:report": "eslint ./"
+    "lint:report": "eslint ./",
+    "dev": "(parcel index.html) & parcel watch index.html",
+    "build": "parcel build index.html"
   },
   "devDependencies": {
     "eslint": "^7.15.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-formatter-gitlab": "^2.1.0",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "parcel-optimizer-css-url": "^2.0.2"
   },
   "dependencies": {
     "creditcard.js": "^3.0.23",
+    "email-validator": "^2.0.4",
     "inputmask": "^5.0.7",
     "parcel": "^2.8.2",
     "redom": "^3.29.1"

@@ -20,22 +20,17 @@ body {
 }
 
 .card-container {
-  padding-left: 100px;
-  position: relative;
-  border: 3px solid #ccc;
   margin: 0 auto 30px auto;
+}
+
+.card-number {
+  width: 100%;
+  padding: 15px 15px 15px 150px;
   background-image: url('./img/defaultcard.png');
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.card-container input {
-  width: 100%;
   letter-spacing: 1px;
   font-size: 30px;
-  padding: 15px 15px 15px 25px;
-  border: 0;
-  outline: none;
 }
 
 .card-details {
@@ -50,6 +45,14 @@ body {
   width: 100%;
 }
 
+.card-number,
+.card-data,
+.cvv-number,
+.email-in {
+  outline: none;
+  border: 3px solid #ccc;
+}
+
 .expiration {
   margin-right: 15px;
   margin-bottom: 15px;
@@ -60,6 +63,9 @@ body {
   width: 45%;
 }
 
-button {
+body button {
   margin: auto;
+  background-color: rgb(247, 247, 170);
+  width: max-content;
+  padding: 15px;
 }
