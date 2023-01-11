@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-bounding {
+  max-width: 600px;
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 50px;
+  border: 3px solid #2a2b2d;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  background: #929a9f;
+}
+
+.card-bounding aside {
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+
+.card-container {
+  margin: 0 auto 30px auto;
+}
+
+.card-number {
+  width: 100%;
+  padding: 15px 15px 15px 150px;
+  background-image: url('./img/defaultcard.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+.card-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-details input {
+  font-size: 30px;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.card-number,
+.card-data,
+.cvv-number,
+.email-in {
+  outline: none;
+  border: 3px solid #ccc;
+}
+
+.expiration {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 51%;
+}
+
+.cvv {
+  width: 45%;
+}
+
+body button {
+  margin: auto;
+  background-color: rgb(247, 247, 170);
+  width: max-content;
+  padding: 15px;
+}
