@@ -3,8 +3,9 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    'jest/globals': true,
   },
-  plugins: ['prettier'],
+  plugins: ['prettier', 'jest'],
   extends: ['eslint:recommended', 'prettier'],
   overrides: [],
   parserOptions: {
