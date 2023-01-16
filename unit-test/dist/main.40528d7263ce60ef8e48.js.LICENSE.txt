@@ -1,0 +1,13 @@
+/*!
+ * dist/inputmask
+ * https://github.com/RobinHerbots/Inputmask
+ * Copyright (c) 2010 - 2021 Robin Herbots
+ * Licensed under the MIT license
+ * Version: 5.0.7
+ */
+
+/**
+ * @name creditcard.js 3.0.22
+ * @license MIT
+ * @author ContaAzul (contaazul.com)
+ */
