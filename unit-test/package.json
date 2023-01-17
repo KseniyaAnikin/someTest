@@ -44,6 +44,7 @@
     "creditcard.js": "^3.0.23",
     "email-validator": "^2.0.4",
     "inputmask": "^5.0.7",
+    "jest-css-modules-transform": "^4.4.2",
     "redom": "^3.29.1"
   }
 }
